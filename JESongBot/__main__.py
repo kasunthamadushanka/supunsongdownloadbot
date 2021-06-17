@@ -10,10 +10,10 @@ from JESongBot import LOGGER
 pm_start_text = """
 Hey [{}](tg://user?id={}), I'm powerful  Song Downloader Bot 🎵
 
-😉 Just send me the song name you want to download.😋
+🎧 Just send me the song name you want to download 🎧
       eg:```/song saritha```
       
-A bot by @supunma 🇱🇰
+A bot by @Michael_Alex12
 """
 
 @app.on_message(filters.command("start"))
@@ -26,10 +26,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🔊", url="https://t.me/slbotzone"
+                        text="Channel 📣", url="https://t.me/epusthakalaya_bots"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/supunma"
+                        text="Dev 📨", url="https://t.me/Michael_Alex12"
                     )
                 ]
             ]
